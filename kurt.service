@@ -1,0 +1,15 @@
+[Unit]
+Description=provides the cashctrl contacts as a directory for yealink phone
+After=network-online.target
+#not sure if this is necessary: Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/kurt
+ExecStart=python3 -m http.server
+Restart=on-failure
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,3 @@
+[submodule "cashctrl-py"]
+	path = cashctrl-py
+	url = https://github.com/blemli/cashctrl-py
