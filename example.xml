@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemliIPPhoneDirectory>
+	<DirectoryEntry>
+		<Name>
+			Stephan Graf, Problemli GmbH
+		</Name>
+		<Telephone>
+			+41525084242
+		</Telephone>
+		<Telephone>
+			+41760000000
+		</Telephone>
+	</DirectoryEntry>
+    <DirectoryEntry>
+        <Name>
+            Musterkunde, Musterfirma
+        </Name>
+        <Telephone>
+            +41521234567
+        </Telephone>
+    </DirectoryEntry>
+</ProblemliIPPhoneDirectory>
