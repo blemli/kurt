@@ -11,7 +11,7 @@ number_types = ["phoneWork", "phonePrivate", "mobileWork", "mobilePrivate"]
 root = ET.Element("ProblemliIPPhoneDirectory")
 
 cc = Client()
-people = cc.person.list(sort="id", dir="ASC")["data"]
+people = cc.person.list(sort="id", dir="ASC")
 directory = []
 
 for person in people:
