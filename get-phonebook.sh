@@ -3,6 +3,10 @@
 # Navigate to the directory where your Python script is located
 cd /home/pi/kurt
 
+
+# activate venv
+source /home/pi/kurt/venv/bin/activate
+
 # Run the Python script to generate phonebook.xml
 python3 kurt.py
 
