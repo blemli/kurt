@@ -477,3 +477,5 @@ $RECYCLE.BIN/
 .idea/kurt.iml
 .idea/inspectionProfiles/Project_Default.xml
 .idea/inspectionProfiles/profiles_settings.xml
+output/
+phonebook.xml
