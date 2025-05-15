@@ -1,13 +1,16 @@
-from cashctrl import CashCtrlClient
+#!/usr/bin/env python3
+
+from cashctrl import Client
 from icecream import ic
 import xml.etree.ElementTree as ET
+
 
 number_types = ["phoneWork", "phonePrivate", "mobileWork", "mobilePrivate"]
 
 # Create the root element for the XML
 root = ET.Element("ProblemliIPPhoneDirectory")
 
-cc = CashCtrlClient()
+cc = Client()
 people = cc.person.list(sort="id", dir="ASC")["data"]
 directory = []
 

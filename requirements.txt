@@ -1,1 +1,2 @@
-cashctrl
+cashctrl==0.0.13
+icecream==2.1.4
